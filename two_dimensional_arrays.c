@@ -1,4 +1,6 @@
 #define COLS (100)
+#define N 3
+#define M 4
 
 void init_matrix(int m[][COLS], int rows) {
   for (int i = 0; i < rows; i++) {
