@@ -5,7 +5,7 @@
 int main(void) {
 
   int size;
-  char str[64];
+  char str[128];
   char *new_str = NULL;
 
   strcpy(str, "Hello");
