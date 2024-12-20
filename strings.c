@@ -8,7 +8,7 @@ int main(void) {
   char name_copy[20];
 
   // String length (minus the null terminating character)
-  printf("%lu", strlen(name));
+  printf("%lu\n", strlen(name));
 
   // String concatenation
   strcat(name, " Doe");
@@ -18,4 +18,6 @@ int main(void) {
   strcpy(name_copy, name);
   printf("%s\n", name_copy);
 
+  char *mystr = "string literal value";
+  printf("%s\n", mystr);
 }
