@@ -7,6 +7,8 @@ int main(void) {
   int size;
   char str[128];
   char *new_str = NULL;
+  char name[10] = "tejas";
+  printf("%s\n", name);
 
   strcpy(str, "Hello");
   size = strlen(str);
