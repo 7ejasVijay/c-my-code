@@ -12,6 +12,7 @@ int main(void) {
 
   // String concatenation
   strcat(name, " Doe");
+  strncat(name, " is black", 8);
   printf("%s\n", name);
 
   // String copy
@@ -25,6 +26,22 @@ int main(void) {
   // String copy with size, no need to null terminate the string on the heap
   strlcpy(name_copy, name_copy, 2);
   printf("%s\n", name_copy);
+
+  // Comparison
+  printf("%d\n", strcmp("all", "all"));
+  printf("%d\n", strncmp("alligator", "alld", 3));
+
+  // Substring
+  char *ptr;
+  ptr = strstr(name_copy, "Doe");
+  if (ptr != NULL) {
+    printf("%s\n", ptr);
+  }
+
+  ptr = strchr(name_copy, 'c');
+  if (ptr != NULL) {
+    printf("%s\n", ptr);
+  }
 
   char *mystr = "string literal value";
   printf("%s\n", mystr);
