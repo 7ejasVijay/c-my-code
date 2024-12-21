@@ -18,6 +18,14 @@ int main(void) {
   strcpy(name_copy, name);
   printf("%s\n", name_copy);
 
+  // String copy with size, need to null terminate the string on the heap
+  strncpy(name_copy, name_copy, 6);
+  printf("%s\n", name_copy);
+
+  // String copy with size, no need to null terminate the string on the heap
+  strlcpy(name_copy, name_copy, 2);
+  printf("%s\n", name_copy);
+
   char *mystr = "string literal value";
   printf("%s\n", mystr);
 }
