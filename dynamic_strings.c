@@ -13,7 +13,6 @@ int main(void) {
   strcpy(str, "Hello");
   size = strlen(str);
 
-  // Additional byte for null terminating character
   new_str = malloc(sizeof(char) * (size + 1));
   if (new_str == NULL) {
     printf("Malloc failed. exiting...");
