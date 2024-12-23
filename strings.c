@@ -31,7 +31,7 @@ int main(void) {
   printf("%d\n", strcmp("all", "all"));
   printf("%d\n", strncmp("alligator", "alld", 3));
 
-  // Substring
+  // Substrings
   char *ptr;
   ptr = strstr(name_copy, "Doe");
   if (ptr != NULL) {
