@@ -27,7 +27,7 @@ int main(void) {
   strlcpy(name_copy, name_copy, 2);
   printf("%s\n", name_copy);
 
-  // Comparison
+  // Comparison of two strings
   printf("%d\n", strcmp("all", "all"));
   printf("%d\n", strncmp("alligator", "alld", 3));
 
