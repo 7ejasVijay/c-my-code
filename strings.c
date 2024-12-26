@@ -38,6 +38,7 @@ int main(void) {
     printf("%s\n", ptr);
   }
 
+  // Subcharacter
   ptr = strchr(name_copy, 'c');
   if (ptr != NULL) {
     printf("%s\n", ptr);
