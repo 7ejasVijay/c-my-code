@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N (20)
-#define PI (3.14)
+#define N (50)
+#define PI (3.14159)
 #define NAME ("John")
 
 int main(void) {
