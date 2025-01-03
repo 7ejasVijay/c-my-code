@@ -1,6 +1,6 @@
 #include <string.h>
 
-#define MAXNAME  (30)
+#define MAXNAME  (40)
 #define MAXCLASS (40)
 
 enum class_year {
