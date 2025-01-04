@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// Struct for creating a new type
 struct studentT {
   char name[64];
   int age;
