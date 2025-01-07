@@ -44,6 +44,7 @@ int main(void) {
     printf("%s\n", ptr);
   }
 
+  // Literal values for pointers
   char *mystr = "string literal value";
   printf("%s\n", mystr);
 }
