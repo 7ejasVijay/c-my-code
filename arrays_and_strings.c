@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define N 20
+#define N 200
 
 
 int main(void) {
   int *arr;
 
-  // Allocate 20 bytes of int on the heap
+  // Allocate 200 bytes of int on the heap
   arr = malloc(sizeof(int) * N);
   if (arr == NULL) {
     printf("Malloc failed for arr");
