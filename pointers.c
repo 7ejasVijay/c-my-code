@@ -17,6 +17,7 @@ int main(void) {
 int change_value(int *input) {
   int val;
 
+  // Dereferncing the pointer
   val = *input;
 
   if (val < 100) {
