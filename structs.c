@@ -27,7 +27,7 @@ int main(void) {
   strcpy(student2.name, "Frances");
   student2.age = student1.age + 4;
 
-  // passing a struct
+  // passing a struct to the checkID function
   can_vote = checkID(student1, 18);
   printf("%s %d\n", student1.name, can_vote);
 
