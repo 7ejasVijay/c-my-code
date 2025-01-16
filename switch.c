@@ -8,6 +8,8 @@ int main(void) {
   printf("Enter a number between 6 and 9: ");
   scanf("%d", &num);
 
+  // The switch statement should only have exact values 
+  // rather than expressions
   switch(num) {
     case 6:
       new_num = num + 1;
