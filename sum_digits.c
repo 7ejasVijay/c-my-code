@@ -12,7 +12,7 @@ int main(void) {
   printf("%d\n", sum_digits(number));
 }
 
-// Uses recursion
+// Uses recursion for summation
 int sum_digits(int number) {
   if (number < 10) {
     return number;
