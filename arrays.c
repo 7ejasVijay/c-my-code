@@ -13,7 +13,7 @@ int main(void) {
     exit(1);
   }
 
-  // Initializing the arrays 
+  // Initializing the arrays, [] is also a form of dereferencing
   for (int i = 0; i < 10; i++) {
     p_array[i] = 0;
     d_array[i] = 0.0;
