@@ -13,6 +13,7 @@ int main(void) {
 }
 
 // Uses recursion for summation
+// Recursion is not good for embedded systems
 int sum_digits(int number) {
   if (number < 10) {
     return number;
