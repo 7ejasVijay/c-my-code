@@ -24,7 +24,7 @@ int main(void) {
       new_num = num + 2;
       break;
     default:
-      printf("Hey, %d is not between 6 and 9!\n", num);
+      printf("Hey, %d is not between 6 and 9 range!\n", num);
   }
 
   printf("num: %d new_num: %d\n", num, new_num);
