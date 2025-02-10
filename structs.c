@@ -34,6 +34,7 @@ int main(void) {
   can_vote = checkID(student2, 18);
   printf("%s %d\n", student2.name, can_vote);
 
+  // Change name takes addresses and changes the original value
   changeName(student2.name, "Kwame");
   printf("Student 2's name is now %s\n", student2.name);
 
